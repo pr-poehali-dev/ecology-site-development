@@ -1,4 +1,4 @@
-import { Recycle, Droplets, Tree } from "lucide-react";
+import { Recycle, Droplets, Leaf } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Features = () => {
@@ -49,7 +49,7 @@ const Features = () => {
           </Card>
           <Card className="border-eco-light/20 transition-all hover:shadow-md hover:scale-[1.01]">
             <CardHeader className="pb-2">
-              <Tree className="h-10 w-10 text-eco mb-2" />
+              <Leaf className="h-10 w-10 text-eco mb-2" />
               <CardTitle className="text-xl text-eco-dark">Исчезновение лесов</CardTitle>
               <CardDescription>
                 "Лёгкие планеты" нуждаются в нашей защите
